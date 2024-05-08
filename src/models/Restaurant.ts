@@ -31,6 +31,10 @@ export class Restaurant {
         }
     }
 
+    updateMenu(menu: { [item: string]: number }) {
+        this.menu = new Map(Object.entries(menu));
+    }
+
     canAcceptOrder(quantity: number): boolean {
         return (this.capacityInUse + quantity) <= this.totalCapacity;
     }
