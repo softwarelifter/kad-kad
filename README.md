@@ -10,32 +10,6 @@ This project implements a simple online food ordering system in TypeScript. It a
 - Selecting restaurants based on a specified strategy (e.g., lowest price).
 - Marking orders as delivered to release capacity.
 
-## Installation
-
-1. Clone the repository:
-
-    ```
-    git clone <repository_url>
-    ```
-
-2. Install dependencies:
-
-    ```
-    npm install
-    ```
-
-3. Build the TypeScript files:
-
-    ```
-    npm run build
-    ```
-
-4. Run the application:
-
-    ```
-    npm start
-    ```
-
 ## Usage
 
 1. Instantiate the FoodOrderingSystem class.
